@@ -1,0 +1,29 @@
+1. Add buttons for each sound to your html
+
+2. Create an event listener that tracks a key press anywhere on the page
+    - test by console logging a message
+
+3. Use the event object to check what key you've pressed
+    - console log the code value
+
+4. Only run some code when you click on a specific key
+    - console log a message only when you click the a key
+
+5. Replace that console log with playing the sound file when the a key is clicked
+    - you'll hear the sound play when the a key is clicked
+
+6. Repeating that for the other sound files and assigning them a key to play the sound when clicked
+    - should have a drum kit you can play on the keyboard
+
+7. Add event listener to a single button
+    - console log a message when that button is clicked
+
+8. Replace the console log with playing a corresponding sound file
+    - similar code to playing sound on key press
+
+9. Repeat that process for the other buttons
+
+// EXTRA STRETCH GOAL
+
+10. Try to condense and refactor code
+    - try to loop through buttons to add click event listeners to them

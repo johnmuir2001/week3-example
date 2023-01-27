@@ -1,0 +1,25 @@
+1. Add content to you HTML e.g. Roll button, image for the dice, element to hold the player score, an
+   element to display win/lose message, and a reset game button
+
+2. Try and get a click event connected to the roll button
+    - for now just console log something in the event so when you click you get a console log back
+
+3. Instead try to generate a rndom number when you click the button between 1 - 6
+    - you can console log this value for now when you click the button
+
+4. Use that random number to add to a score variable and display that score to the screen
+
+5. Display the correct dice image for the number you rolled e.g. if you roll a 3 then show the 3 face of 
+    a dice
+
+6. Track if a 1 is generated, if it is then reset the score to 0 and display a lose message
+
+7. If the score gets to over 21 then display a win message
+
+8. If the player wins or loses then display the reset game button
+
+9. Add an event listener to the reset button
+    - test this with a console log you should see when you click the button
+
+10. Reset the game when the button is clicked e.g. reset score to 0, hide any win/lose messages, make sure 
+    the roll button is visible etc.

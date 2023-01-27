@@ -1,0 +1,17 @@
+/* The parent element of the 6 boxes is a flex container */
+#optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 330px;
+    width: 480px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    cursor: pointer;
+    transition: all 0.4s;
+}
